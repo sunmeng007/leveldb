@@ -1,0 +1,4 @@
+cp -r include/leveldb /usr/local/include
+
+
+g++ test.cc out-static/libleveldb.a -lpthread -std=c++11
