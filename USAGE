@@ -1,3 +1,7 @@
+./build_detect_platform build_config.mk ./
+
+make
+
 cp -r include/leveldb /usr/local/include
 
 
